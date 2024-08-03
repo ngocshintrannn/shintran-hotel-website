@@ -175,7 +175,7 @@ p {
 }
 
 #home-info .info-content p {
-  padding-bottom: 30px;
+  padding-bottom: 17px;
 }
 
 /* features */
@@ -274,4 +274,98 @@ p {
   background-color: #444;
   color: #fff;
   padding: 20px;
+}
+
+/* Mobile */
+@media screen and (max-width: 46.813em) {
+  #showcase .showcase-content h1 {
+    font-size: 30px;
+  }
+
+  .col-full,
+  #about-info .col-full,
+  #home-info .info-img,
+  #home-info .info-content {
+    width: 100%;
+  }
+
+  #home-info .info-content {
+    background-color: #333;
+  }
+
+  #about-info .info-left {
+    text-align: center;
+  }
+
+  .l-heading {
+    font-size: 34px;
+  }
+
+  #testimonials {
+    height: 100%;
+  }
+
+  #testimonials h2 {
+    padding-bottom: 40px;
+    line-height: 1.4;
+  }
+
+  .box {
+    padding: 18px;
+  }
+
+  .lead,
+  #contact-form label {
+    font-size: 18px;
+  }
+
+  .form-detail,
+  #contact-form input,
+  #contact-form textarea {
+    font-size: 20px;
+  }
+
+  .contact-sub-btn {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 46.875em) and (max-width: 63.938em) {
+  .container {
+    overflow: hidden;
+  }
+
+  .rate-hotel {
+    margin: -6px 0;
+  }
+
+  #home-info .info-content {
+    padding: 32px 30px;
+  }
+
+  .form-detail {
+    font-size: 24px;
+  }
+
+  #contact-form label {
+    font-size: 22px;
+  }
+
+  #navbar ul li a,
+  #contact-form input,
+  #contact-form textarea {
+    font-size: 20px;
+  }
+
+  #contact-form text-area {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact-sub-btn {
+    font-size: 21px;
+    width: 100%;
+  }
 }
